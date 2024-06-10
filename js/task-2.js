@@ -30,7 +30,7 @@ console.log(gallery);
 function createMarrkup(arr) {
   return arr
     .map(({ url, alt }) => {
-      return `<li><img src="${url}" alt="${alt}" width=320px></li>`;
+      return `<li class="js-image"><img src="${url}" alt="${alt}" width=320px></li>`;
     })
     .join("");
 }
