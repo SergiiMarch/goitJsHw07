@@ -58,3 +58,31 @@ input#name-input::placeholder {
   font-weight: 400;
   font-style: normal;
 }
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+  gap: 16px;
+}
+
+.change-color {
+  width: Hug (148px) px;
+  height: Hug (40px) px;
+  padding: 8px 16px 8px 16px;
+  gap: 10px;
+  border-radius: 8px 8px 8px 8px;
+
+  background-color: #4e75ff;
+  color: white;
+}
+
+.color {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
